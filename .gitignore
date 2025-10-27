@@ -61,5 +61,9 @@ $RECYCLE.BIN/
 *.swp
 *.bak
 
+# Bicep build artifacts (compiled ARM templates)
+infrastructure/*.json
+!infrastructure/*.parameters.json
+
 # Others
 *.sln
