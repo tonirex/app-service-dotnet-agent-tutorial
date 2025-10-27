@@ -62,7 +62,8 @@ $RECYCLE.BIN/
 *.bak
 
 # Bicep build artifacts (compiled ARM templates)
-infrastructure/disable-basic-auth.json
+infrastructure/*.json
+!infrastructure/*.parameters.json
 
 # Others
 *.sln
